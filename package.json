@@ -1,13 +1,14 @@
 {
-  "name": "workflow",
+  "name": "react-rank",
   "version": "1.0.0",
-  "description": "workflow",
+  "description": "react16 & router4",
   "scripts": {
     "dev": "node ./build/devServer.js",
     "prod": "node ./build/prodServer.js"
   },
   "keywords": [
-    "workflow"
+    "react",
+    "react-router"
   ],
   "main": "index.js",
   "bin": {
