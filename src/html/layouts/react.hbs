@@ -14,9 +14,14 @@
   {{/if}}
   {{#if __DEV__}}
     <script src="//res.yy.com/libs/vconsole/3.1.1/vconsole.min.js"></script>
+    <script>
+      // init vConsole
+      var vConsole = new VConsole();
+    </script>
   {{/if}}
 </head>
 <body>
   {% body %}
+  <script type="text/javascript" src="//web.yystatic.com/public/global/base/js/??yymobile_api.min.js,yyapi_util.js"></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+@import "../../css/base/mixin";
+
+.list-wrap {
+  padding-bottom: 30px;
+}
+@keyframes rotate {
+  0% {
+    transform: translate3d(-50%, 0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0) rotate(360deg);
+  }
+}
+
+.loading-wrap {
+  display: none;
+  position: fixed;
+  top: 350px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  &.show {
+    display: block;
+  }
+  .loading {
+    @include bg-img(42px, 47px, '~img/loading.png');
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    animation: rotate 1s linear infinite;
+  }
+}
