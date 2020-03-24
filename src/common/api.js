@@ -1,7 +1,7 @@
 import jsonp from 'jsonp';
 import querystring from 'query-string';
 
-const domain = '//wap.yy.com';
+const domain = '//xxx.xx.com';
 const Api = {};
 const urls = {
   // 主播卡路里排行榜
